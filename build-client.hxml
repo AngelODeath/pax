@@ -1,0 +1,7 @@
+-cp src
+-dce full
+-debug
+# -v
+--main Client
+--js bin/client.js
+-cmd echo "Built: bin/client.js"

@@ -1,0 +1,8 @@
+-cp src
+-dce full
+-debug
+# -v
+--main Server
+--js bin/server.js
+-lib hxnodejs
+-cmd echo "Built: bin/server.js"
