@@ -8,7 +8,7 @@ var path = require('path');
 // import { sayHi } from './libs/sayHi.js'
 import { create_UUID } from './libs/UUIDv4.js'
 
-const HOST = 'localhost';
+const HOST = '0.0.0.0';
 const PORT = 5000;
 
 // import Route from './Route.js';

@@ -1,18 +1,25 @@
 <script>
-
 </script>
 
-<div>
+<div class="menu">
   <h1>Main menu</h1>
-  <ul>
-    <li><a href="#">New game</a></li>
-    <li><a href="#">Leaderboard</a></li>
-    <li><a href="#">Login</a></li>
-    <li><a href="#">Sign up</a></li>
-    <li><a href="#">Rules</a></li>
-  </ul>
+  <div class="flex justify">
+    <a class="button" href="#">New game</a>
+  </div>
+  <div class="flex justify">
+    <a class="button" href="#">Leaderboard</a>
+  </div>
+  <div class="flex justify">
+    <a class="button" href="#">Login</a>
+  </div>
+
+  <div class="flex justify">
+    <a class="button" href="#">Sign up</a>
+  </div>
+  <div class="flex justify">
+    <a class="button" href="#">Rules</a>
+  </div>
 </div>
 
 <style>
-
 </style>
